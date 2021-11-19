@@ -1,18 +1,99 @@
 *
 {
-    margin:0px;
-    padding:0px;
+    margin: 0px;
+    padding: 0px;
 }
 
 .menu li
 {
-   float:left;
-   list-style:none;
+   float: left;
+   list-style: none;
    margin: 10px 25px; 
 }
 
 .menu
 {
-    margin:0 auto;
-    display:table;
+   /*Выровнял меню посередине*/
+    margin: 0 auto;
+    display: table;
 }
+
+.blokMenu
+{
+    /*Закрасил меню и добавил тени*/
+    overflow: hidden;
+    background: #444;
+    box-shadow: 0px 13px 17px -6px #000000
+}
+
+.menu li a
+{
+   /*Меняю цвет и размер меню*/
+    font:  18 px Verdana, Arial, Helvetica, sans-serif;
+   color: #fff;
+   text-decoration: none;
+}
+
+.menu li a:hover
+{
+    font: 18px Verdana, Arial, Helvetica, sans-serif;
+    color: #ccc;
+    border-bottom: 1px dotted #ccc;
+}
+
+.logo
+{
+    margin: 0 auto;
+    width: 600px;
+    margin-top:30px;
+    margin-bottom:30px;
+
+}
+/* Изменения логотипа */
+.logo img
+{
+    border-radius:200px; /*Opera*/
+}
+/* Редактирование основного раздела с текстом */
+.content
+{
+    width:700px;
+    margin:0 auto;
+    padding:20px;
+    box-shadow: 0px 13px 17px -6px #000000;
+    border-radius:15px;
+    background: rgb(193, 218, 228)
+}
+
+.content h2
+{
+    font: 30px Verdana, Arial, Helvetica, sans-serof;
+    color: rgb(66, 53, 138);
+    text-align: center;
+}
+
+.content p
+{
+    font: 14px Verdana, Arial, Helvetica, sans-serof;
+    color: #444;
+    text-indent:20px;
+}
+/* Подвал */
+.footer
+{
+    width: 100%;
+    text-align:center;
+    margin-top:20px;
+}
+
+.footer p
+{
+    font: 14px Verdana, Arial, Helvetica, sans-serof;
+    color:rgb(33, 30, 167);
+}
+
+.footer a:hover
+    {
+        text-decoration: none;
+        border: 0px;
+    }
